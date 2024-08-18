@@ -3,18 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container{
 
-}
 .hero_section{
     height: 1000px;
     width: 100%;
     background-image: url("https://i.pinimg.com/originals/4c/65/64/4c65644f4719d34b908f00f6941f5881.jpg");
     background-size: cover;
-    border-bottom-right-radius: 300px
-
+    border-bottom-right-radius: 300px;
+}
+.option_navbar{
+    display: none;
 }
 .navbar{
+    display: block;
     height:150px;
     width: 100%;
     display: flex;
@@ -45,8 +46,13 @@
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    outline: none;
+    color: white;
+    
 }
-
+.navbar >.search_bar >input::placeholder{
+    color: white;
+}
 .navbar >.search_bar >button {
     height: 100%;
     width: 20%;
@@ -85,7 +91,9 @@
 
 /* banner section */
 
-
+.banner_btn{
+    display: block;
+}
 
 .banner_section {
     display: flex;
@@ -1110,6 +1118,10 @@
     background-color: #F9EBFF26;
     color: white;
     font-size: 18px;
+    outline:none ;
+}
+.From_section > .main_from >form >div >input::placeholder{
+    color: white;
 }
 .From_section > .main_from >form >div > textarea {
     width: 100%;
@@ -1120,7 +1132,12 @@
     background-color: #F9EBFF26 ;
     border: none;
     overflow: hidden;
+    outline: none;
+    color: white;
 
+}
+.From_section > .main_from >form >div > textarea::placeholder{
+    color: white;
 }
 .From_section > .main_from >form >button{
     font-size: 15px;
