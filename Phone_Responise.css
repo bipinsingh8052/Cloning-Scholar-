@@ -1,16 +1,10 @@
-@media (max-width:480px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
+@media screen and  (max-width:480px) {
+  
     
     .hero_section{
         height: 800px;
-        width: 480px;
-        background-image: url("https://i.pinimg.com/originals/4c/65/64/4c65644f4719d34b908f00f6941f5881.jpg");
-        background-size: cover;
-        border-bottom-right-radius: 300px;
+        width: 100%;
+   
     }
     .option_navbar{
         display: block;
@@ -49,26 +43,10 @@
         display: none;
     }
     .banner_section {
-        display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    
-    
-    .banner_image{
-        width: 75%;
-        height: 550px;
-        border: 1px solid transparent;
-        border-radius: 20px;
-        background-image: url("https://w0.peakpx.com/wallpaper/601/760/HD-wallpaper-apple-macbook-laptop-on-black-background-modern-technology-laptop-apple-thumbnail.jpg");
-        background-size: cover;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-    }
     .banner_image .banner_contant{
         height: 450px;
         width: 50%;
@@ -233,7 +211,7 @@
         justify-content: center;
         align-items: center;
         justify-content: space-around;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         /* padding-top: 25px;
         padding-bottom: 25px; */
     }
@@ -274,8 +252,7 @@
         justify-content: start;
         justify-content: space-between;
         background-color: #d1c9fd;
-        position: relative;
-        left: -110px;
+      
     
     
     }
@@ -325,8 +302,8 @@
     /* course Section */
     
     .Course_section{
-        height: 2650px;
-        width: 460px;
+        /* height: 2650px; */
+        /* width: 460px; */
     
     }
     .course_heading{

@@ -160,7 +160,7 @@
         justify-content: center;
         align-items: center;
         justify-content: space-around;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         /* padding-top: 25px;
         padding-bottom: 25px; */
     }
@@ -198,7 +198,7 @@
         justify-content: space-between;
         padding-left: 40px;
         background-color: #d1c9fd;
-       margin-left: 120px;
+       /* margin-left: 120px; */
     
     
     }
@@ -248,7 +248,8 @@
     /* course Section */
     
     .Course_section{
-        height: 1500px;
+        /* height: 1500px; */
+
         width: 100%;
     
     }
